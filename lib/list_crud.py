@@ -5,8 +5,9 @@ def create_a_list():
     my_list = [1, "apple", 3.14, True]
     return my_list
 
-def add_element_to_end_of_list(l, element):
-    return None
+def add_element_to_end_of_list(my_list, element):
+    my_list.append(element)
+    return my_list
 
 def add_element_to_start_of_list(l, element):
     return None
