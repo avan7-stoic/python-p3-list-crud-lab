@@ -1,8 +1,9 @@
 def create_an_empty_list():
-    return None
+    return []
 
 def create_a_list():
-    return None
+    my_list = [1, "apple", 3.14, True]
+    return my_list
 
 def add_element_to_end_of_list(l, element):
     return None
